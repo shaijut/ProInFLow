@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    
+    <style>
+
+        .btn-custom {
+            background-color: #F38181;
+            border: none;
+            color: white;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .btn-custom:hover {
+            background-color: #FF5F5F;
+        }
+        .jumbotron {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 50px 40px;
+        }
+        .jumbotron h1 {
+            font-size: 3.5rem;
+            color: #333;
+        }
+        .jumbotron p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .fa-laptop {
+            color: #F38181;
+            transition: transform 0.3s ease;
+        }
+        .fa-laptop:hover {
+            transform: scale(1.1);
+        }
+        .fa-5x {
+            font-size: 10em;
+        }
+
+        .custom-card {
+            background-color: #FAFAFA; 
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+            border: 1px solid rgba(0, 0, 0, 0.05); 
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-primary font-weight-bold" href="#">Productivity App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-custom text-white" href="todo.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<br>
+<br>
+
+    <div class="container mt-5">
+        <div class="jumbotron p-5 rounded shadow-sm">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 font-weight-bold">Boost Your Focus and Productivity</h1>
+                    <p class="lead mb-4">Manage your tasks, use the Pomodoro timer, and track your productivity with our app.</p>
+                    <a href="todo.html" class="btn btn-custom btn-lg">Get Started <i class="fa fa-code ml-2"></i></a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <i class="fa fa-laptop fa-5x text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="features" class="container my-5">
+        <h2 class="text-center mb-4">Powerful Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-tasks fa-3x mb-3"></i>
+                    <h4>Task Management</h4>
+                    <p>Organize and manage your tasks with ease. Keep track of everything you need to do.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-clock-o fa-3x mb-3"></i>
+                    <h4>Pomodoro Timer</h4>
+                    <p>Boost your productivity with a built-in Pomodoro timer, work in intervals with breaks.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-bar-chart fa-3x mb-3"></i>
+                    <h4>Productivity Tracker</h4>
+                    <p>Track your progress and stay on top of your goals with detailed productivity insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="container">
+        <h2 class="text-center mb-4">How It Works</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-check-circle fa-3x mb-3"></i>
+                    <h4>Set Tasks</h4>
+                    <p>Start by adding tasks for the day. Organize them and set your goals for focus.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-play fa-3x mb-3"></i>
+                    <h4>Start Pomodoro</h4>
+                    <p>Start a Pomodoro cycle, focus for a set period, and take regular breaks to stay sharp.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card custom-card p-4 text-center shadow-sm">
+                    <i class="fa fa-trophy fa-3x mb-3"></i>
+                    <h4>Track Productivity</h4>
+                    <p>Monitor your usage patterns and improve your focus by tracking your web and phone usage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="container footer text-center mt-5 py-4">
+        <p class="text-muted">Built by a developer, for developers</p>
+        <a href="https://github.com" target="_blank" class="github-icon">
+            <i class="fa fa-code fa-2x"></i> <!-- Font Awesome GitHub icon -->
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

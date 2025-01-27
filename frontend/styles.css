@@ -1,0 +1,92 @@
+body {
+    background: radial-gradient(circle at bottom, #C8D3FF, #EEF1FF, #FFFFFF);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;  /* Ensure the body covers the full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Make sure the content is vertically aligned */
+}
+
+#pageWrapper {
+    flex-grow: 1;  /* Ensure that the page content stretches to fill available space */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+/* Custom Navbar Styling */
+.navbar {
+    background-color: #ffffff; /* White background for navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* Darker icon for better visibility */
+}
+
+/* Active Link Styling */
+.nav-link.active {
+    color: #F38181 !important; /* Pinkish color for active link */
+}
+
+/* Normal Link Styling */
+.nav-link {
+    color: #333; /* Dark color for text */
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #F38181; /* Change color to pink on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Button Customization */
+.btn-custom {
+    background-color: #F38181;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn-custom:hover {
+    background-color: #FF5F5F;
+}
+
+/* Navbar Branding */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4e73df; /* Primary color for branding */
+}
+
+/* Navbar Links for Mobile */
+.navbar-nav {
+    margin-top: 10px;
+}
+        
+        /* Footer Styling */
+        .footer {
+            background-color: #f8f9fa; /* Light background to match the page */
+            border-top: 1px solid #ddd; /* Subtle border on top */
+            color: #333; /* Dark text for contrast */
+            font-size: 1rem;
+        }
+
+        .footer p {
+            font-weight: 500;
+            color: #555; /* Light muted color for text */
+            margin-bottom: 10px;
+        }
+
+        /* Responsive Footer */
+        @media (max-width: 768px) {
+            .footer {
+                text-align: center;
+            }
+        }
