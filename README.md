@@ -19,7 +19,6 @@ This README will guide you through setting up both the backend and frontend to g
 
 -   **Task Management**: Manage and organize your tasks.
 -   **Pomodoro Timer**: Focus and take breaks using the Pomodoro technique.
--   **Productivity Tracker**: Track your time and improve focus.
 -   **Intelligent Agents**: Automate tasks like code writing, code review, unit test generation, and bug detection.
 
 ----------
@@ -123,7 +122,6 @@ You’re now ready to use the Developer Productivity App! The frontend will allo
 
 -   **Task Management**: Organize your tasks for the day, set goals, and track progress.
 -   **Pomodoro Timer**: Work in intervals of focused time, followed by short breaks, to boost productivity.
--   **Productivity Tracker**: Monitor your productivity through web and phone usage tracking.
 -   **Code Writing Agent**: Generate minimal but functional code based on requirement summaries.
 -   **Code Review Agent**: Review code and suggest improvements based on industry best practices.
 -   **Unit Test Generation Agent**: Generate unit test cases for your code with the selected testing framework.
