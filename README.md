@@ -1,7 +1,7 @@
 
 # Pro In Flow - Developer Productivity App
 
-Welcome to the Developer Productivity App! This app is designed to help developers streamline their workflow with intelligent agents for code writing, code review, unit test generation, bug detection, and additional productivity features like task management, Pomodoro timer, and productivity tracking.
+Welcome to the Developer Productivity App! This app is designed to help developers streamline their workflow with intelligent agents for code writing, code review, unit test generation, bug detection, and additional productivity features like task management, Pomodoro timer, and AI agents as copilot's for most tasks.
 
 This README will guide you through setting up both the backend and frontend to get the app running on your local machine.
 
